@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 #PROGRAM UNTUK TITIK DAN GARIS
 print("\033c")       #To close all
 
-row, col = int(500), int(500)
+row, col = int(1200), int(1200)
 
 
 pd = int(5)
@@ -85,8 +85,8 @@ def buat_garis(Gambar, y1, x1, y2, x2, pd, lw, point_color, line_color):
 print('col, row =', col, ',', row)
 Gambar = np.zeros(shape=(row, col, 3), dtype=np.uint8)  # Preparing the black canvas
 
-x1 = 400; y1 = 400
-x2 = 400; y2 = 100
+x1 = 100; y1 = 200
+x2 = 100; y2 = 1000
 
 hasil = buat_garis(Gambar, y1, x1, y2, x2, pd, lw, point_color, line_color)
 

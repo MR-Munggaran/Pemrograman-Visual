@@ -10,14 +10,14 @@ import matplotlib.pyplot as plt
 # pd = int(8); pr = 255; pg = 0; pb = 255
 # lw = int(8); lr = 255; lg = 0; lb = 255
 
-x1 = 100; y1 = 400
-x2 = 400; y2 = 100
+x1 = 100; y1 = 200
+x2 = 800; y2 = 600
 
 pd = int(8); pr = 255; pg = 255; pb = 0
 lw = int(8); lr = 255; lg = 255; lb = 0
 
-col = int(800)
-row = int(800)
+col = int(1000)
+row = int(1000)
 
 def buat_garis(y1,x1,y2,x2,pd,lw,pr,pg,pb,lr,lg,lb):
     Gambar = np.zeros(shape=(row,col,3),dtype=np.uint8)

@@ -8,8 +8,8 @@ x2 = 400; y2 = 100
 pd = int(8); pr = 255; pg = 255; pb = 0
 lw = int(8); lr = 255; lg = 255; lb = 0
 
-col = int(500)
-row = int(500)
+col = int(2000)
+row = int(2000)
 
 def buat_lingkaran(y, x, r, pd, lw, pr, pg, pb, lr, lg, lb):
     Gambar = np.zeros(shape=(row, col, 3), dtype=np.uint8)
